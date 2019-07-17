@@ -1,0 +1,234 @@
+html {
+	-webkit-font-smoothing:antialiased;
+	font-family:'Guardian Egyptian Web', georgia, serif;
+	box-sizing:border-box;
+	font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+		
+body {
+	margin:0;
+	line-height:1.5;
+	color:#000;
+	background:#fff
+}
+
+a {
+	color:#005689;
+	text-decoration: none !important;
+	border-bottom: 0.0625rem solid #dcdcdc;
+	-webkit-transition: border-color 0.15s ease-out;
+	transition: border-color 0.15s ease-out;
+}
+
+a:hover {
+	border-color: #6e99b3;
+}
+
+.immersive a {
+		color:#951c55;
+}
+
+.immersive a:hover {
+	border-color:#951c55;
+}
+
+.indent {
+	margin-left:20px;
+}
+
+ul {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-padding-start:0;
+}
+
+p {
+	margin:0;
+}
+
+h1 {
+	font-family: "Guardian Egyptian Web",Georgia,serif;
+	font-size: 32px;
+	font-weight: normal;
+	color: black;
+	line-height: 38px;
+}
+
+h2 {
+	font-family: "Guardian Egyptian Web",Georgia,serif;
+	font-size: 1.2rem;
+	font-weight: normal;
+	color: black;
+	font-weight:900;
+}
+
+.chartTitle {
+	font-size:1.25rem;
+	line-height:1.375rem;
+	padding-bottom:.45rem;
+	font-weight:600;
+	color:#000;
+}
+
+.borderBottom {
+	border-bottom:1px solid #dcdcdc;
+	padding-bottom:.45rem;
+}
+
+.borderTop {
+	border-top:1px solid #dcdcdc;
+	padding-top:.45rem;
+}
+
+
+.chartSans {
+	font-size:0.8rem;
+	line-height:1em;
+	color:#767676;
+	fill:#767676;
+	font-family:'Guardian Text Sans Web', 'Agate Sans', sans-serif;
+}
+
+.subTitle {
+	font-size:1rem;
+	color:#808080;
+	font-weight:bold;
+	font-family:'Guardian Text Sans Web', 'Agate Sans', sans-serif;
+}
+
+.footer {
+	font-size: 12px;
+	line-height: 16px;
+	color: rgb(118, 118, 118);
+	font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+
+.chartNotes { 
+	font-size:0.9rem; 
+	color:#767676;
+	font-family:'Guardian Text Sans Web', 'Agate Sans', sans-serif;
+}
+
+#graphicContainer {
+	position:relative;
+	margin-bottom:10px;
+}
+
+.center {
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+}
+
+.btn {
+	background-color: #eaeaea;
+	border-radius: 62.5rem;
+	border: none;
+	outline: 0;
+	box-sizing: border-box;
+	font-size: 12px;
+	line-height: 16px;
+	font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	color: #767676;
+	padding: 4px 10px;
+	margin: 1px 1px;
+	text-align: right;
+	cursor:pointer;
+	float: right;
+}
+
+.btn:hover {
+	opacity: 0.7 !important;
+}
+
+.btn-selected {
+	background-color: #005689;
+	color: #FFF;
+}
+
+.gu-graphic-footer {
+	border-top:1px solid #dadada;
+	padding-top:1px;
+	color:#767676;
+	font-family:'Guardian Text Sans Web', arial, sans-serif;
+	font-size:.75rem;
+	position:relative;
+}
+
+.gu-graphic-footer p {
+	font-size:.75rem;
+	margin:0;
+	display:inline-block
+}
+
+.gu-graphic-footer p:nth-of-type(2) {
+	float:right
+}
+
+.right {
+	text-align: right;
+	float:right;
+}		
+
+.left {
+	text-align: left;
+	float:left;
+}
+
+.btns-share .btn-fb:hover {
+    background-color: #3067a3;
+}
+
+.btns-share button {
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 9000px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+
+#loading {
+	font-family: "Guardian Egyptian Web",Georgia,serif;
+	font-size:1.1rem;
+	color:#000;
+}
+
+#outer-wrapper {
+	position: relative;
+}
+
+#outer-wrapper.immersive {
+	max-width:1300px;
+}
+
+#outer-wrapper.inline {
+	max-width:620px;
+}
+
+#outer-wrapper.showcase {
+	max-width:620px;
+}
+
+.line {
+    fill: none;
+    stroke: #ffab00;
+    stroke-width: 3;
+}
+  
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
