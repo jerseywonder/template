@@ -38,6 +38,14 @@ module.exports = {
 				use: [
 					'file-loader'
 				]
+			},
+			{
+				test: /\.(html)$/,
+				use: {
+					loaders: [
+				      { test: /\.html$/, loader: 'ractive' }
+				    ]
+				}
 			}
 	  	]
 	},
