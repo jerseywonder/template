@@ -1,0 +1,15 @@
+<div class="container">
+
+	<h2>{{first}}</h2>
+
+	<div class="toolbar">
+
+		{{#each second}}
+		
+		<div on-tap="['sample', @key]">{{this.label}}</div>
+
+		{{/each}}
+
+	</div>
+	
+</div>

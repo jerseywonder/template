@@ -21,6 +21,12 @@ module.exports = {
 	module: {
 		rules: [
 			{
+				test: /\.html/,
+				use: [
+					'ractive-loader'
+				]
+			},
+			{
 				test: /\.(sa|sc|c)ss$/,
 				use: [
 					{
@@ -38,8 +44,8 @@ module.exports = {
 				use: [
 					'file-loader'
 				]
-			}
-	  	]
+			},
+	  	],
 	},
 	devtool: 'inline-source-map',
     plugins: [
