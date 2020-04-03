@@ -1,4 +1,4 @@
-import { contains, has_duplicates, chunkArrayInGroups, unmatched_array, match_array, multiples, getNextHighestIndex, shuffle, sum, unique } from "./helpers/arrays"; // Things you can do with arrays
+import { contains, has_duplicates, chunkArrayInGroups, unmatched_array, match_array, multiples, getNextHighestIndex, shuffle, sum, unique, getClosest } from "./helpers/arrays"; // Things you can do with arrays
 import { trunc, randomString, toTitleCase } from "./helpers/strings";
 import colour from "./helpers/colours/color-conversion-algorithms"; 
 import palette from "./helpers/colours/palette"; 
