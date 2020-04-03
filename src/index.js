@@ -1,18 +1,18 @@
-import loadJson from './modules/load-json/'
-import { App } from './modules/app'
+import loadJson from './helpers/load-json/'
+//import { App } from './apps/app'
 import './main.scss';
 
-const app = {
+// import utilities from './importer';
 
-	init: () => {
+// var array = ["a", "b", "a"]
 
-		loadJson('https://interactive.guim.co.uk/docsdata/1IRGyMr0bqUhKReesVdvW4dev8SBw8kwQIO8zv2xpaqU.json?t=' + new Date().getTime())
-			.then((resp) => {
-				new App(resp.sheets.data)
-			})
+// console.log(utilities.has_duplicates(array))
 
-	}
+// new App()
 
-}
+// Dynamically import modules... modules are compiled separately
+import("./modules/hello-world")
+  .then((importedModule) => {
+    let instance = new importedModule.default("Hello world... yo sup world.")
+  })
 
-app.init()
